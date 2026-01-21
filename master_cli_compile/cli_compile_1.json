@@ -1,141 +1,401 @@
 {"boards": [
-{ "board": "espressif:esp32:esp32c5",
-                "target": "esp32c5",
+{ "board": "espressif:esp32:esp32",
+                "target": "esp32",
                 "sketches": [
+{"name": "libraries/BLE/examples/Server_secure_static_passkey",
+                    "sizes": [{
+                            "flash_bytes": 1101983,
+                            "flash_percentage": 35,
+                            "ram_bytes": 39960,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "libraries/BLE/examples/UART",
+                    "sizes": [{
+                            "flash_bytes": 1100351,
+                            "flash_percentage": 34,
+                            "ram_bytes": 39976,
+                            "ram_percentage": 12
+                            }]
+                    },
 {"name": "libraries/BLE/examples/Write",
                     "sizes": [{
-                            "flash_bytes": 782042,
-                            "flash_percentage": 24,
-                            "ram_bytes": 26444,
-                            "ram_percentage": 8
+                            "flash_bytes": 1096287,
+                            "flash_percentage": 34,
+                            "ram_bytes": 39960,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "libraries/BLE/examples/iBeacon",
                     "sizes": [{
-                            "flash_bytes": 788244,
-                            "flash_percentage": 25,
-                            "ram_bytes": 26460,
-                            "ram_percentage": 8
+                            "flash_bytes": 1102139,
+                            "flash_percentage": 35,
+                            "ram_bytes": 39976,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "libraries/BluetoothSerial/examples/DiscoverConnect",
+                    "sizes": [{
+                            "flash_bytes": 1069647,
+                            "flash_percentage": 34,
+                            "ram_bytes": 40576,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "libraries/BluetoothSerial/examples/GetLocalMAC",
+                    "sizes": [{
+                            "flash_bytes": 1067847,
+                            "flash_percentage": 33,
+                            "ram_bytes": 40576,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "libraries/BluetoothSerial/examples/SerialToSerialBT",
+                    "sizes": [{
+                            "flash_bytes": 1066523,
+                            "flash_percentage": 33,
+                            "ram_bytes": 40576,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "libraries/BluetoothSerial/examples/SerialToSerialBTM",
+                    "sizes": [{
+                            "flash_bytes": 1067715,
+                            "flash_percentage": 33,
+                            "ram_bytes": 40592,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "libraries/BluetoothSerial/examples/SerialToSerialBT_Legacy",
+                    "sizes": [{
+                            "flash_bytes": 1067351,
+                            "flash_percentage": 33,
+                            "ram_bytes": 40576,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "libraries/BluetoothSerial/examples/SerialToSerialBT_SSP",
+                    "sizes": [{
+                            "flash_bytes": 1069439,
+                            "flash_percentage": 33,
+                            "ram_bytes": 40576,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "libraries/BluetoothSerial/examples/bt_classic_device_discovery",
+                    "sizes": [{
+                            "flash_bytes": 1067899,
+                            "flash_percentage": 33,
+                            "ram_bytes": 40560,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "libraries/BluetoothSerial/examples/bt_remove_paired_devices",
+                    "sizes": [{
+                            "flash_bytes": 1067835,
+                            "flash_percentage": 33,
+                            "ram_bytes": 40560,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "libraries/DNSServer/examples/CaptivePortal",
                     "sizes": [{
-                            "flash_bytes": 1036912,
-                            "flash_percentage": 79,
-                            "ram_bytes": 48268,
-                            "ram_percentage": 14
+                            "flash_bytes": 953963,
+                            "flash_percentage": 72,
+                            "ram_bytes": 45852,
+                            "ram_percentage": 13
                             }]
                     },
 {"name": "libraries/EEPROM/examples/eeprom_class",
                     "sizes": [{
-                            "flash_bytes": 298282,
+                            "flash_bytes": 301199,
                             "flash_percentage": 22,
-                            "ram_bytes": 16564,
-                            "ram_percentage": 5
+                            "ram_bytes": 20980,
+                            "ram_percentage": 6
                             }]
                     },
 {"name": "libraries/EEPROM/examples/eeprom_extra",
                     "sizes": [{
-                            "flash_bytes": 301306,
-                            "flash_percentage": 22,
-                            "ram_bytes": 16516,
-                            "ram_percentage": 5
+                            "flash_bytes": 303383,
+                            "flash_percentage": 23,
+                            "ram_bytes": 20916,
+                            "ram_percentage": 6
                             }]
                     },
 {"name": "libraries/EEPROM/examples/eeprom_write",
                     "sizes": [{
-                            "flash_bytes": 296876,
+                            "flash_bytes": 300731,
                             "flash_percentage": 22,
-                            "ram_bytes": 16532,
-                            "ram_percentage": 5
+                            "ram_bytes": 21040,
+                            "ram_percentage": 6
                             }]
                     },
 {"name": "libraries/ESP32/examples/AnalogOut/LEDCFade",
                     "sizes": [{
-                            "flash_bytes": 300788,
-                            "flash_percentage": 22,
-                            "ram_bytes": 16632,
+                            "flash_bytes": 304643,
+                            "flash_percentage": 23,
+                            "ram_bytes": 21092,
+                            "ram_percentage": 6
+                            }]
+                    }
+]
+},
+{ "board": "espressif:esp32:esp32c3",
+                "target": "esp32c3",
+                "sketches": [
+{"name": "libraries/BLE/examples/Server_multiconnect",
+                    "sizes": [{
+                            "flash_bytes": 638848,
+                            "flash_percentage": 20,
+                            "ram_bytes": 16644,
                             "ram_percentage": 5
                             }]
                     },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCGammaFade",
+{"name": "libraries/BLE/examples/Server_secure_authorization",
                     "sizes": [{
-                            "flash_bytes": 308684,
-                            "flash_percentage": 23,
-                            "ram_bytes": 16648,
+                            "flash_bytes": 643236,
+                            "flash_percentage": 20,
+                            "ram_bytes": 16956,
                             "ram_percentage": 5
+                            }]
+                    },
+{"name": "libraries/BLE/examples/Server_secure_static_passkey",
+                    "sizes": [{
+                            "flash_bytes": 641376,
+                            "flash_percentage": 20,
+                            "ram_bytes": 16628,
+                            "ram_percentage": 5
+                            }]
+                    },
+{"name": "libraries/BLE/examples/UART",
+                    "sizes": [{
+                            "flash_bytes": 638906,
+                            "flash_percentage": 20,
+                            "ram_bytes": 16636,
+                            "ram_percentage": 5
+                            }]
+                    },
+{"name": "libraries/BLE/examples/Write",
+                    "sizes": [{
+                            "flash_bytes": 634902,
+                            "flash_percentage": 20,
+                            "ram_bytes": 16628,
+                            "ram_percentage": 5
+                            }]
+                    },
+{"name": "libraries/BLE/examples/iBeacon",
+                    "sizes": [{
+                            "flash_bytes": 641108,
+                            "flash_percentage": 20,
+                            "ram_bytes": 16636,
+                            "ram_percentage": 5
+                            }]
+                    },
+{"name": "libraries/DNSServer/examples/CaptivePortal",
+                    "sizes": [{
+                            "flash_bytes": 977158,
+                            "flash_percentage": 74,
+                            "ram_bytes": 35580,
+                            "ram_percentage": 10
+                            }]
+                    },
+{"name": "libraries/EEPROM/examples/eeprom_class",
+                    "sizes": [{
+                            "flash_bytes": 285282,
+                            "flash_percentage": 21,
+                            "ram_bytes": 12016,
+                            "ram_percentage": 3
+                            }]
+                    },
+{"name": "libraries/EEPROM/examples/eeprom_extra",
+                    "sizes": [{
+                            "flash_bytes": 288298,
+                            "flash_percentage": 21,
+                            "ram_bytes": 11968,
+                            "ram_percentage": 3
+                            }]
+                    },
+{"name": "libraries/EEPROM/examples/eeprom_write",
+                    "sizes": [{
+                            "flash_bytes": 283916,
+                            "flash_percentage": 21,
+                            "ram_bytes": 11984,
+                            "ram_percentage": 3
+                            }]
+                    },
+{"name": "libraries/ESP32/examples/AnalogOut/LEDCFade",
+                    "sizes": [{
+                            "flash_bytes": 286628,
+                            "flash_percentage": 21,
+                            "ram_bytes": 12060,
+                            "ram_percentage": 3
                             }]
                     },
 {"name": "libraries/ESP32/examples/AnalogOut/LEDCSingleChannel",
                     "sizes": [{
-                            "flash_bytes": 279422,
-                            "flash_percentage": 21,
-                            "ram_bytes": 16616,
-                            "ram_percentage": 5
+                            "flash_bytes": 266568,
+                            "flash_percentage": 20,
+                            "ram_bytes": 12052,
+                            "ram_percentage": 3
                             }]
                     },
 {"name": "libraries/ESP32/examples/AnalogOut/LEDCSoftwareFade",
                     "sizes": [{
-                            "flash_bytes": 279478,
-                            "flash_percentage": 21,
-                            "ram_bytes": 16616,
-                            "ram_percentage": 5
+                            "flash_bytes": 266620,
+                            "flash_percentage": 20,
+                            "ram_bytes": 12052,
+                            "ram_percentage": 3
                             }]
                     },
 {"name": "libraries/ESP32/examples/AnalogOut/SigmaDelta",
                     "sizes": [{
-                            "flash_bytes": 273808,
-                            "flash_percentage": 20,
-                            "ram_bytes": 16484,
-                            "ram_percentage": 5
+                            "flash_bytes": 261116,
+                            "flash_percentage": 19,
+                            "ram_bytes": 11936,
+                            "ram_percentage": 3
                             }]
                     },
 {"name": "libraries/ESP32/examples/AnalogOut/ledcFrequency",
                     "sizes": [{
-                            "flash_bytes": 281594,
-                            "flash_percentage": 21,
-                            "ram_bytes": 16616,
-                            "ram_percentage": 5
+                            "flash_bytes": 268480,
+                            "flash_percentage": 20,
+                            "ram_bytes": 12044,
+                            "ram_percentage": 3
                             }]
                     },
 {"name": "libraries/ESP32/examples/AnalogOut/ledcWrite_RGB",
                     "sizes": [{
-                            "flash_bytes": 296104,
-                            "flash_percentage": 22,
-                            "ram_bytes": 16640,
-                            "ram_percentage": 5
+                            "flash_bytes": 282468,
+                            "flash_percentage": 21,
+                            "ram_bytes": 12076,
+                            "ram_percentage": 3
                             }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogRead",
+                    }
+]
+},
+{ "board": "espressif:esp32:esp32c5",
+                "target": "esp32c5",
+                "sketches": [
+{"name": "libraries/ArduinoOTA/examples/SignedOTA",
                     "sizes": [{
-                            "flash_bytes": 300852,
-                            "flash_percentage": 22,
-                            "ram_bytes": 16816,
-                            "ram_percentage": 5
+                            "flash_bytes": 1086984,
+                            "flash_percentage": 82,
+                            "ram_bytes": 52812,
+                            "ram_percentage": 16
                             }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogReadContinuous",
+                    }
+]
+},
+{ "board": "espressif:esp32:esp32c6",
+                "target": "esp32c6",
+                "sketches": [
+{"name": "libraries/ArduinoOTA/examples/SignedOTA",
                     "sizes": [{
-                            "flash_bytes": 306284,
+                            "flash_bytes": 1045212,
+                            "flash_percentage": 79,
+                            "ram_bytes": 46612,
+                            "ram_percentage": 14
+                            }]
+                    }
+]
+},
+{ "board": "espressif:esp32:esp32h2",
+                "target": "esp32h2",
+                "sketches": [
+{"name": "libraries/BLE/examples/Server_secure_authorization",
+                    "sizes": [{
+                            "flash_bytes": 754186,
                             "flash_percentage": 23,
-                            "ram_bytes": 16824,
+                            "ram_bytes": 16756,
                             "ram_percentage": 5
                             }]
                     },
-{"name": "libraries/ESP32/examples/ArduinoStackSize",
+{"name": "libraries/BLE/examples/Server_secure_static_passkey",
                     "sizes": [{
-                            "flash_bytes": 286212,
-                            "flash_percentage": 21,
-                            "ram_bytes": 16476,
+                            "flash_bytes": 751688,
+                            "flash_percentage": 23,
+                            "ram_bytes": 16408,
                             "ram_percentage": 5
                             }]
                     },
-{"name": "libraries/ESP32/examples/ArduinoWaitTimeBeforeStartingSketch",
+{"name": "libraries/BLE/examples/UART",
                     "sizes": [{
-                            "flash_bytes": 285950,
-                            "flash_percentage": 21,
-                            "ram_bytes": 16476,
+                            "flash_bytes": 749220,
+                            "flash_percentage": 23,
+                            "ram_bytes": 16424,
                             "ram_percentage": 5
+                            }]
+                    },
+{"name": "libraries/BLE/examples/Write",
+                    "sizes": [{
+                            "flash_bytes": 745214,
+                            "flash_percentage": 23,
+                            "ram_bytes": 16408,
+                            "ram_percentage": 5
+                            }]
+                    },
+{"name": "libraries/BLE/examples/iBeacon",
+                    "sizes": [{
+                            "flash_bytes": 751422,
+                            "flash_percentage": 23,
+                            "ram_bytes": 16424,
+                            "ram_percentage": 5
+                            }]
+                    },
+{"name": "libraries/EEPROM/examples/eeprom_class",
+                    "sizes": [{
+                            "flash_bytes": 286210,
+                            "flash_percentage": 9,
+                            "ram_bytes": 13296,
+                            "ram_percentage": 4
+                            }]
+                    },
+{"name": "libraries/EEPROM/examples/eeprom_extra",
+                    "sizes": [{
+                            "flash_bytes": 289234,
+                            "flash_percentage": 9,
+                            "ram_bytes": 13248,
+                            "ram_percentage": 4
+                            }]
+                    },
+{"name": "libraries/EEPROM/examples/eeprom_write",
+                    "sizes": [{
+                            "flash_bytes": 284834,
+                            "flash_percentage": 9,
+                            "ram_bytes": 13248,
+                            "ram_percentage": 4
+                            }]
+                    },
+{"name": "libraries/ESP32/examples/AnalogOut/LEDCFade",
+                    "sizes": [{
+                            "flash_bytes": 288730,
+                            "flash_percentage": 9,
+                            "ram_bytes": 13372,
+                            "ram_percentage": 4
+                            }]
+                    },
+{"name": "libraries/ESP32/examples/AnalogOut/LEDCGammaFade",
+                    "sizes": [{
+                            "flash_bytes": 296592,
+                            "flash_percentage": 22,
+                            "ram_bytes": 13388,
+                            "ram_percentage": 4
+                            }]
+                    },
+{"name": "libraries/ESP32/examples/AnalogOut/LEDCSingleChannel",
+                    "sizes": [{
+                            "flash_bytes": 267838,
+                            "flash_percentage": 20,
+                            "ram_bytes": 13380,
+                            "ram_percentage": 4
+                            }]
+                    },
+{"name": "libraries/ESP32/examples/AnalogOut/LEDCSoftwareFade",
+                    "sizes": [{
+                            "flash_bytes": 267894,
+                            "flash_percentage": 20,
+                            "ram_bytes": 13380,
+                            "ram_percentage": 4
                             }]
                     }
 ]
@@ -143,256 +403,115 @@
 { "board": "espressif:esp32:esp32p4",
                 "target": "esp32p4",
                 "sketches": [
+{"name": "libraries/BLE/examples/Scan",
+                    "sizes": [{
+                            "flash_bytes": 800140,
+                            "flash_percentage": 25,
+                            "ram_bytes": 26544,
+                            "ram_percentage": 8
+                            }]
+                    },
+{"name": "libraries/BLE/examples/Server",
+                    "sizes": [{
+                            "flash_bytes": 803240,
+                            "flash_percentage": 25,
+                            "ram_bytes": 26536,
+                            "ram_percentage": 8
+                            }]
+                    },
+{"name": "libraries/BLE/examples/Server_multiconnect",
+                    "sizes": [{
+                            "flash_bytes": 807668,
+                            "flash_percentage": 25,
+                            "ram_bytes": 26560,
+                            "ram_percentage": 8
+                            }]
+                    },
 {"name": "libraries/BLE/examples/Server_secure_static_passkey",
                     "sizes": [{
-                            "flash_bytes": 800084,
+                            "flash_bytes": 810208,
                             "flash_percentage": 25,
-                            "ram_bytes": 32784,
-                            "ram_percentage": 10
+                            "ram_bytes": 26544,
+                            "ram_percentage": 8
                             }]
                     },
 {"name": "libraries/BLE/examples/UART",
                     "sizes": [{
-                            "flash_bytes": 797676,
+                            "flash_bytes": 807730,
                             "flash_percentage": 25,
-                            "ram_bytes": 32792,
-                            "ram_percentage": 10
+                            "ram_bytes": 26552,
+                            "ram_percentage": 8
                             }]
                     },
 {"name": "libraries/BLE/examples/Write",
                     "sizes": [{
-                            "flash_bytes": 793676,
+                            "flash_bytes": 803726,
                             "flash_percentage": 25,
-                            "ram_bytes": 32776,
-                            "ram_percentage": 10
+                            "ram_bytes": 26536,
+                            "ram_percentage": 8
                             }]
                     },
 {"name": "libraries/BLE/examples/iBeacon",
                     "sizes": [{
-                            "flash_bytes": 799878,
+                            "flash_bytes": 809934,
                             "flash_percentage": 25,
-                            "ram_bytes": 32792,
-                            "ram_percentage": 10
+                            "ram_bytes": 26552,
+                            "ram_percentage": 8
                             }]
                     },
 {"name": "libraries/DNSServer/examples/CaptivePortal",
                     "sizes": [{
-                            "flash_bytes": 881898,
+                            "flash_bytes": 886604,
                             "flash_percentage": 67,
-                            "ram_bytes": 31136,
+                            "ram_bytes": 30488,
                             "ram_percentage": 9
                             }]
                     },
 {"name": "libraries/EEPROM/examples/eeprom_class",
                     "sizes": [{
-                            "flash_bytes": 324824,
-                            "flash_percentage": 24,
-                            "ram_bytes": 22208,
+                            "flash_bytes": 329334,
+                            "flash_percentage": 25,
+                            "ram_bytes": 22224,
                             "ram_percentage": 6
                             }]
                     },
 {"name": "libraries/EEPROM/examples/eeprom_extra",
                     "sizes": [{
-                            "flash_bytes": 327838,
+                            "flash_bytes": 332344,
                             "flash_percentage": 25,
-                            "ram_bytes": 22144,
+                            "ram_bytes": 22160,
                             "ram_percentage": 6
                             }]
                     },
 {"name": "libraries/EEPROM/examples/eeprom_write",
                     "sizes": [{
-                            "flash_bytes": 323464,
-                            "flash_percentage": 24,
-                            "ram_bytes": 22160,
+                            "flash_bytes": 327964,
+                            "flash_percentage": 25,
+                            "ram_bytes": 22168,
                             "ram_percentage": 6
                             }]
                     },
 {"name": "libraries/ESP32/examples/AnalogOut/LEDCFade",
                     "sizes": [{
-                            "flash_bytes": 326912,
-                            "flash_percentage": 24,
-                            "ram_bytes": 22288,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCGammaFade",
-                    "sizes": [{
-                            "flash_bytes": 334732,
+                            "flash_bytes": 331096,
                             "flash_percentage": 25,
                             "ram_bytes": 22304,
                             "ram_percentage": 6
                             }]
                     },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSingleChannel",
+{"name": "libraries/ESP32/examples/AnalogOut/LEDCGammaFade",
                     "sizes": [{
-                            "flash_bytes": 304648,
-                            "flash_percentage": 23,
-                            "ram_bytes": 22284,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSoftwareFade",
-                    "sizes": [{
-                            "flash_bytes": 304698,
-                            "flash_percentage": 23,
-                            "ram_bytes": 22284,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/SigmaDelta",
-                    "sizes": [{
-                            "flash_bytes": 299458,
-                            "flash_percentage": 22,
-                            "ram_bytes": 22128,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/ledcFrequency",
-                    "sizes": [{
-                            "flash_bytes": 306762,
-                            "flash_percentage": 23,
-                            "ram_bytes": 22276,
-                            "ram_percentage": 6
-                            }]
-                    }
-]
-},
-{ "board": "espressif:esp32:esp32s3",
-                "target": "esp32s3",
-                "sketches": [
-{"name": "libraries/BLE/examples/Write",
-                    "sizes": [{
-                            "flash_bytes": 605095,
-                            "flash_percentage": 19,
-                            "ram_bytes": 32688,
-                            "ram_percentage": 9
-                            }]
-                    },
-{"name": "libraries/BLE/examples/iBeacon",
-                    "sizes": [{
-                            "flash_bytes": 609491,
-                            "flash_percentage": 19,
-                            "ram_bytes": 32704,
-                            "ram_percentage": 9
-                            }]
-                    },
-{"name": "libraries/DNSServer/examples/CaptivePortal",
-                    "sizes": [{
-                            "flash_bytes": 905899,
-                            "flash_percentage": 69,
-                            "ram_bytes": 45052,
-                            "ram_percentage": 13
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_class",
-                    "sizes": [{
-                            "flash_bytes": 297327,
-                            "flash_percentage": 22,
-                            "ram_bytes": 20796,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_extra",
-                    "sizes": [{
-                            "flash_bytes": 299403,
-                            "flash_percentage": 22,
-                            "ram_bytes": 20740,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_write",
-                    "sizes": [{
-                            "flash_bytes": 296583,
-                            "flash_percentage": 22,
-                            "ram_bytes": 20740,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCFade",
-                    "sizes": [{
-                            "flash_bytes": 300503,
-                            "flash_percentage": 22,
-                            "ram_bytes": 20844,
+                            "flash_bytes": 338916,
+                            "flash_percentage": 25,
+                            "ram_bytes": 22320,
                             "ram_percentage": 6
                             }]
                     },
 {"name": "libraries/ESP32/examples/AnalogOut/LEDCSingleChannel",
                     "sizes": [{
-                            "flash_bytes": 283235,
-                            "flash_percentage": 21,
-                            "ram_bytes": 20844,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSoftwareFade",
-                    "sizes": [{
-                            "flash_bytes": 283303,
-                            "flash_percentage": 21,
-                            "ram_bytes": 20844,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/SigmaDelta",
-                    "sizes": [{
-                            "flash_bytes": 278567,
-                            "flash_percentage": 21,
-                            "ram_bytes": 20708,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/ledcFrequency",
-                    "sizes": [{
-                            "flash_bytes": 285027,
-                            "flash_percentage": 21,
-                            "ram_bytes": 20820,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/ledcWrite_RGB",
-                    "sizes": [{
-                            "flash_bytes": 296971,
-                            "flash_percentage": 22,
-                            "ram_bytes": 20860,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogRead",
-                    "sizes": [{
-                            "flash_bytes": 302807,
+                            "flash_bytes": 308558,
                             "flash_percentage": 23,
-                            "ram_bytes": 21012,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogReadContinuous",
-                    "sizes": [{
-                            "flash_bytes": 309579,
-                            "flash_percentage": 23,
-                            "ram_bytes": 21028,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/ArduinoStackSize",
-                    "sizes": [{
-                            "flash_bytes": 289043,
-                            "flash_percentage": 22,
-                            "ram_bytes": 20700,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/ArduinoWaitTimeBeforeStartingSketch",
-                    "sizes": [{
-                            "flash_bytes": 288791,
-                            "flash_percentage": 22,
-                            "ram_bytes": 20700,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/CI/CIBoardsTest",
-                    "sizes": [{
-                            "flash_bytes": 345011,
-                            "flash_percentage": 26,
-                            "ram_bytes": 22600,
+                            "ram_bytes": 22300,
                             "ram_percentage": 6
                             }]
                     }
@@ -401,9 +520,17 @@
 { "board": "espressif:esp32:esp32s2",
                 "target": "esp32s2",
                 "sketches": [
+{"name": "libraries/ESP32/examples/AnalogReadContinuous",
+                    "sizes": [{
+                            "flash_bytes": 272922,
+                            "flash_percentage": 20,
+                            "ram_bytes": 15520,
+                            "ram_percentage": 4
+                            }]
+                    },
 {"name": "libraries/ESP32/examples/ArduinoStackSize",
                     "sizes": [{
-                            "flash_bytes": 251974,
+                            "flash_bytes": 253574,
                             "flash_percentage": 19,
                             "ram_bytes": 15312,
                             "ram_percentage": 4
@@ -411,7 +538,7 @@
                     },
 {"name": "libraries/ESP32/examples/ArduinoWaitTimeBeforeStartingSketch",
                     "sizes": [{
-                            "flash_bytes": 251738,
+                            "flash_bytes": 253338,
                             "flash_percentage": 19,
                             "ram_bytes": 15312,
                             "ram_percentage": 4
@@ -419,15 +546,15 @@
                     },
 {"name": "libraries/ESP32/examples/CI/CIBoardsTest",
                     "sizes": [{
-                            "flash_bytes": 300178,
-                            "flash_percentage": 22,
+                            "flash_bytes": 301758,
+                            "flash_percentage": 23,
                             "ram_bytes": 17228,
                             "ram_percentage": 5
                             }]
                     },
 {"name": "libraries/ESP32/examples/Camera/CameraWebServer",
                     "sizes": [{
-                            "flash_bytes": 984530,
+                            "flash_bytes": 986334,
                             "flash_percentage": 5,
                             "ram_bytes": 62652,
                             "ram_percentage": 19
@@ -435,15 +562,15 @@
                     },
 {"name": "libraries/ESP32/examples/Camera/CameraWebServer",
                     "sizes": [{
-                            "flash_bytes": 988310,
+                            "flash_bytes": 990150,
                             "flash_percentage": 5,
-                            "ram_bytes": 62672,
+                            "ram_bytes": 62688,
                             "ram_percentage": 19
                             }]
                     },
 {"name": "libraries/ESP32/examples/ChipID/GetChipID",
                     "sizes": [{
-                            "flash_bytes": 253842,
+                            "flash_bytes": 255442,
                             "flash_percentage": 19,
                             "ram_bytes": 15360,
                             "ram_percentage": 4
@@ -451,23 +578,23 @@
                     },
 {"name": "libraries/ESP32/examples/DeepSleep/ExternalWakeUp",
                     "sizes": [{
-                            "flash_bytes": 259286,
+                            "flash_bytes": 260902,
                             "flash_percentage": 19,
-                            "ram_bytes": 15400,
+                            "ram_bytes": 15416,
                             "ram_percentage": 4
                             }]
                     },
 {"name": "libraries/ESP32/examples/DeepSleep/TimerWakeUp",
                     "sizes": [{
-                            "flash_bytes": 259250,
+                            "flash_bytes": 260866,
                             "flash_percentage": 19,
-                            "ram_bytes": 15400,
+                            "ram_bytes": 15416,
                             "ram_percentage": 4
                             }]
                     },
 {"name": "libraries/ESP32/examples/DeepSleep/TouchWakeUp",
                     "sizes": [{
-                            "flash_bytes": 277118,
+                            "flash_bytes": 279158,
                             "flash_percentage": 21,
                             "ram_bytes": 16128,
                             "ram_percentage": 4
@@ -475,7 +602,7 @@
                     },
 {"name": "libraries/ESP32/examples/FreeRTOS/BasicMultiThreading",
                     "sizes": [{
-                            "flash_bytes": 284578,
+                            "flash_bytes": 286250,
                             "flash_percentage": 21,
                             "ram_bytes": 15916,
                             "ram_percentage": 4
@@ -483,15 +610,15 @@
                     },
 {"name": "libraries/ESP32/examples/FreeRTOS/Mutex",
                     "sizes": [{
-                            "flash_bytes": 252838,
+                            "flash_bytes": 254454,
                             "flash_percentage": 19,
-                            "ram_bytes": 15320,
+                            "ram_bytes": 15336,
                             "ram_percentage": 4
                             }]
                     },
 {"name": "libraries/ESP32/examples/FreeRTOS/Queue",
                     "sizes": [{
-                            "flash_bytes": 252722,
+                            "flash_bytes": 254322,
                             "flash_percentage": 19,
                             "ram_bytes": 15312,
                             "ram_percentage": 4
@@ -499,7 +626,7 @@
                     },
 {"name": "libraries/ESP32/examples/FreeRTOS/Semaphore",
                     "sizes": [{
-                            "flash_bytes": 252078,
+                            "flash_bytes": 253678,
                             "flash_percentage": 19,
                             "ram_bytes": 15312,
                             "ram_percentage": 4
@@ -507,7 +634,7 @@
                     },
 {"name": "libraries/ESP32/examples/GPIO/BlinkRGB",
                     "sizes": [{
-                            "flash_bytes": 256946,
+                            "flash_bytes": 258458,
                             "flash_percentage": 19,
                             "ram_bytes": 15716,
                             "ram_percentage": 4
@@ -515,7 +642,7 @@
                     },
 {"name": "libraries/ESP32/examples/GPIO/FunctionalInterrupt",
                     "sizes": [{
-                            "flash_bytes": 260330,
+                            "flash_bytes": 262110,
                             "flash_percentage": 19,
                             "ram_bytes": 16264,
                             "ram_percentage": 4
@@ -523,510 +650,23 @@
                     },
 {"name": "libraries/ESP32/examples/GPIO/FunctionalInterruptLambda",
                     "sizes": [{
-                            "flash_bytes": 277682,
+                            "flash_bytes": 279362,
                             "flash_percentage": 21,
                             "ram_bytes": 16372,
                             "ram_percentage": 4
                             }]
-                    },
-{"name": "libraries/ESP32/examples/GPIO/FunctionalInterruptStruct",
-                    "sizes": [{
-                            "flash_bytes": 258882,
-                            "flash_percentage": 19,
-                            "ram_bytes": 16272,
-                            "ram_percentage": 4
-                            }]
                     }
 ]
 },
-{ "board": "espressif:esp32:esp32c3",
-                "target": "esp32c3",
+{ "board": "espressif:esp32:esp32s3",
+                "target": "esp32s3",
                 "sketches": [
-{"name": "libraries/BLE/examples/Server_secure_static_passkey",
+{"name": "libraries/ArduinoOTA/examples/SignedOTA",
                     "sizes": [{
-                            "flash_bytes": 636312,
-                            "flash_percentage": 20,
-                            "ram_bytes": 22636,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/BLE/examples/UART",
-                    "sizes": [{
-                            "flash_bytes": 633906,
-                            "flash_percentage": 20,
-                            "ram_bytes": 22644,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/BLE/examples/Write",
-                    "sizes": [{
-                            "flash_bytes": 629910,
-                            "flash_percentage": 20,
-                            "ram_bytes": 22636,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/BLE/examples/iBeacon",
-                    "sizes": [{
-                            "flash_bytes": 636108,
-                            "flash_percentage": 20,
-                            "ram_bytes": 22644,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/DNSServer/examples/CaptivePortal",
-                    "sizes": [{
-                            "flash_bytes": 974598,
-                            "flash_percentage": 74,
-                            "ram_bytes": 35564,
-                            "ram_percentage": 10
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_class",
-                    "sizes": [{
-                            "flash_bytes": 283658,
-                            "flash_percentage": 21,
-                            "ram_bytes": 12016,
-                            "ram_percentage": 3
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_extra",
-                    "sizes": [{
-                            "flash_bytes": 286682,
-                            "flash_percentage": 21,
-                            "ram_bytes": 11968,
-                            "ram_percentage": 3
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_write",
-                    "sizes": [{
-                            "flash_bytes": 282280,
-                            "flash_percentage": 21,
-                            "ram_bytes": 11976,
-                            "ram_percentage": 3
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCFade",
-                    "sizes": [{
-                            "flash_bytes": 285128,
-                            "flash_percentage": 21,
-                            "ram_bytes": 12056,
-                            "ram_percentage": 3
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSingleChannel",
-                    "sizes": [{
-                            "flash_bytes": 265052,
-                            "flash_percentage": 20,
-                            "ram_bytes": 12048,
-                            "ram_percentage": 3
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSoftwareFade",
-                    "sizes": [{
-                            "flash_bytes": 265104,
-                            "flash_percentage": 20,
-                            "ram_bytes": 12048,
-                            "ram_percentage": 3
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/SigmaDelta",
-                    "sizes": [{
-                            "flash_bytes": 259654,
-                            "flash_percentage": 19,
-                            "ram_bytes": 11936,
-                            "ram_percentage": 3
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/ledcFrequency",
-                    "sizes": [{
-                            "flash_bytes": 266982,
-                            "flash_percentage": 20,
-                            "ram_bytes": 12040,
-                            "ram_percentage": 3
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/ledcWrite_RGB",
-                    "sizes": [{
-                            "flash_bytes": 280790,
-                            "flash_percentage": 21,
-                            "ram_bytes": 12072,
-                            "ram_percentage": 3
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogRead",
-                    "sizes": [{
-                            "flash_bytes": 284570,
-                            "flash_percentage": 21,
-                            "ram_bytes": 12140,
-                            "ram_percentage": 3
-                            }]
-                    }
-]
-},
-{ "board": "espressif:esp32:esp32c6",
-                "target": "esp32c6",
-                "sketches": [
-{"name": "libraries/BLE/examples/Write",
-                    "sizes": [{
-                            "flash_bytes": 723858,
-                            "flash_percentage": 23,
-                            "ram_bytes": 22080,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/BLE/examples/iBeacon",
-                    "sizes": [{
-                            "flash_bytes": 730068,
-                            "flash_percentage": 23,
-                            "ram_bytes": 22096,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/DNSServer/examples/CaptivePortal",
-                    "sizes": [{
-                            "flash_bytes": 996262,
-                            "flash_percentage": 76,
-                            "ram_bytes": 41764,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_class",
-                    "sizes": [{
-                            "flash_bytes": 258812,
-                            "flash_percentage": 19,
-                            "ram_bytes": 13340,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_extra",
-                    "sizes": [{
-                            "flash_bytes": 261844,
-                            "flash_percentage": 19,
-                            "ram_bytes": 13276,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_write",
-                    "sizes": [{
-                            "flash_bytes": 257416,
-                            "flash_percentage": 19,
-                            "ram_bytes": 13292,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCFade",
-                    "sizes": [{
-                            "flash_bytes": 260966,
-                            "flash_percentage": 19,
-                            "ram_bytes": 13436,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCGammaFade",
-                    "sizes": [{
-                            "flash_bytes": 268876,
-                            "flash_percentage": 20,
-                            "ram_bytes": 13452,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSingleChannel",
-                    "sizes": [{
-                            "flash_bytes": 239548,
-                            "flash_percentage": 18,
-                            "ram_bytes": 13428,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSoftwareFade",
-                    "sizes": [{
-                            "flash_bytes": 239604,
-                            "flash_percentage": 18,
-                            "ram_bytes": 13428,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/SigmaDelta",
-                    "sizes": [{
-                            "flash_bytes": 234104,
-                            "flash_percentage": 17,
-                            "ram_bytes": 13260,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/ledcFrequency",
-                    "sizes": [{
-                            "flash_bytes": 241714,
-                            "flash_percentage": 18,
-                            "ram_bytes": 13420,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/ledcWrite_RGB",
-                    "sizes": [{
-                            "flash_bytes": 256230,
-                            "flash_percentage": 19,
-                            "ram_bytes": 13444,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogRead",
-                    "sizes": [{
-                            "flash_bytes": 261892,
-                            "flash_percentage": 19,
-                            "ram_bytes": 13616,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogReadContinuous",
-                    "sizes": [{
-                            "flash_bytes": 267372,
-                            "flash_percentage": 20,
-                            "ram_bytes": 13624,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/ArduinoStackSize",
-                    "sizes": [{
-                            "flash_bytes": 246700,
-                            "flash_percentage": 18,
-                            "ram_bytes": 13252,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/ArduinoWaitTimeBeforeStartingSketch",
-                    "sizes": [{
-                            "flash_bytes": 246432,
-                            "flash_percentage": 18,
-                            "ram_bytes": 13252,
-                            "ram_percentage": 4
-                            }]
-                    }
-]
-},
-{ "board": "espressif:esp32:esp32h2",
-                "target": "esp32h2",
-                "sketches": [
-{"name": "libraries/BLE/examples/Server_secure_static_passkey",
-                    "sizes": [{
-                            "flash_bytes": 746426,
-                            "flash_percentage": 23,
-                            "ram_bytes": 21072,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/BLE/examples/UART",
-                    "sizes": [{
-                            "flash_bytes": 744018,
-                            "flash_percentage": 23,
-                            "ram_bytes": 21088,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/BLE/examples/Write",
-                    "sizes": [{
-                            "flash_bytes": 740018,
-                            "flash_percentage": 23,
-                            "ram_bytes": 21072,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/BLE/examples/iBeacon",
-                    "sizes": [{
-                            "flash_bytes": 746220,
-                            "flash_percentage": 23,
-                            "ram_bytes": 21088,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_class",
-                    "sizes": [{
-                            "flash_bytes": 284428,
-                            "flash_percentage": 9,
-                            "ram_bytes": 13288,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_extra",
-                    "sizes": [{
-                            "flash_bytes": 287444,
-                            "flash_percentage": 9,
-                            "ram_bytes": 13240,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_write",
-                    "sizes": [{
-                            "flash_bytes": 283060,
-                            "flash_percentage": 8,
-                            "ram_bytes": 13248,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCFade",
-                    "sizes": [{
-                            "flash_bytes": 287076,
-                            "flash_percentage": 9,
-                            "ram_bytes": 13368,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCGammaFade",
-                    "sizes": [{
-                            "flash_bytes": 294934,
-                            "flash_percentage": 22,
-                            "ram_bytes": 13384,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSingleChannel",
-                    "sizes": [{
-                            "flash_bytes": 266174,
-                            "flash_percentage": 20,
-                            "ram_bytes": 13376,
-                            "ram_percentage": 4
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSoftwareFade",
-                    "sizes": [{
-                            "flash_bytes": 266230,
-                            "flash_percentage": 20,
-                            "ram_bytes": 13376,
-                            "ram_percentage": 4
-                            }]
-                    }
-]
-},
-{ "board": "espressif:esp32:esp32",
-                "target": "esp32",
-                "sketches": [
-{"name": "libraries/BLE/examples/Write",
-                    "sizes": [{
-                            "flash_bytes": 1093863,
-                            "flash_percentage": 34,
-                            "ram_bytes": 39944,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/BLE/examples/iBeacon",
-                    "sizes": [{
-                            "flash_bytes": 1099719,
-                            "flash_percentage": 34,
-                            "ram_bytes": 39960,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/BluetoothSerial/examples/DiscoverConnect",
-                    "sizes": [{
-                            "flash_bytes": 1067235,
-                            "flash_percentage": 33,
-                            "ram_bytes": 40576,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/BluetoothSerial/examples/GetLocalMAC",
-                    "sizes": [{
-                            "flash_bytes": 1065399,
-                            "flash_percentage": 33,
-                            "ram_bytes": 40576,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/BluetoothSerial/examples/SerialToSerialBT",
-                    "sizes": [{
-                            "flash_bytes": 1064099,
-                            "flash_percentage": 33,
-                            "ram_bytes": 40576,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/BluetoothSerial/examples/SerialToSerialBTM",
-                    "sizes": [{
-                            "flash_bytes": 1065259,
-                            "flash_percentage": 33,
-                            "ram_bytes": 40592,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/BluetoothSerial/examples/SerialToSerialBT_Legacy",
-                    "sizes": [{
-                            "flash_bytes": 1064907,
-                            "flash_percentage": 33,
-                            "ram_bytes": 40560,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/BluetoothSerial/examples/SerialToSerialBT_SSP",
-                    "sizes": [{
-                            "flash_bytes": 1066967,
-                            "flash_percentage": 33,
-                            "ram_bytes": 40560,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/BluetoothSerial/examples/bt_classic_device_discovery",
-                    "sizes": [{
-                            "flash_bytes": 1065463,
-                            "flash_percentage": 33,
-                            "ram_bytes": 40560,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/BluetoothSerial/examples/bt_remove_paired_devices",
-                    "sizes": [{
-                            "flash_bytes": 1065375,
-                            "flash_percentage": 33,
-                            "ram_bytes": 40560,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "libraries/DNSServer/examples/CaptivePortal",
-                    "sizes": [{
-                            "flash_bytes": 951747,
+                            "flash_bytes": 945963,
                             "flash_percentage": 72,
-                            "ram_bytes": 45836,
-                            "ram_percentage": 13
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_class",
-                    "sizes": [{
-                            "flash_bytes": 299531,
-                            "flash_percentage": 22,
-                            "ram_bytes": 20980,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_extra",
-                    "sizes": [{
-                            "flash_bytes": 301715,
-                            "flash_percentage": 23,
-                            "ram_bytes": 20916,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/EEPROM/examples/eeprom_write",
-                    "sizes": [{
-                            "flash_bytes": 299047,
-                            "flash_percentage": 22,
-                            "ram_bytes": 21024,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCFade",
-                    "sizes": [{
-                            "flash_bytes": 302999,
-                            "flash_percentage": 23,
-                            "ram_bytes": 21076,
-                            "ram_percentage": 6
-                            }]
-                    },
-{"name": "libraries/ESP32/examples/AnalogOut/LEDCSingleChannel",
-                    "sizes": [{
-                            "flash_bytes": 285655,
-                            "flash_percentage": 21,
-                            "ram_bytes": 21068,
-                            "ram_percentage": 6
+                            "ram_bytes": 49296,
+                            "ram_percentage": 15
                             }]
                     }
 ]
